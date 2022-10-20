@@ -4,5 +4,5 @@ App features: The intention of the software is to have 5 key features, namely Cl
 Group Members:
 Ikobi Lynch (620139035) IkobiLynch,
 Brianna Dixon (620119239) BriDixon,
-Sherylee West (620139139) Sher-123-cpu, 
+Sherylee West (620139139) Sher-123-cpu,
 Nakeeba Bowes (620139183) annia004
