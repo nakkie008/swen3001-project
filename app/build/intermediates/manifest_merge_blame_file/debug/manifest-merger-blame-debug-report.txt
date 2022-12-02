@@ -6,60 +6,60 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->/Users/ikobilynch/Desktop/Alarm-20221201T230052Z-001/Alarm/app/src/main/AndroidManifest.xml
+8-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="32" />
-9-->/Users/ikobilynch/Desktop/Alarm-20221201T230052Z-001/Alarm/app/src/main/AndroidManifest.xml
+9-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.VIBRATE" />
-11-->/Users/ikobilynch/Desktop/Alarm-20221201T230052Z-001/Alarm/app/src/main/AndroidManifest.xml:4:3-63
-11-->/Users/ikobilynch/Desktop/Alarm-20221201T230052Z-001/Alarm/app/src/main/AndroidManifest.xml:4:20-61
+11-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:4:3-63
+11-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:4:20-61
 12    <uses-permission android:name="android.permission.WAKE_LOCK" />
-12-->/Users/ikobilynch/Desktop/Alarm-20221201T230052Z-001/Alarm/app/src/main/AndroidManifest.xml:5:5-67
-12-->/Users/ikobilynch/Desktop/Alarm-20221201T230052Z-001/Alarm/app/src/main/AndroidManifest.xml:5:22-65
+12-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:5:5-67
+12-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:5:22-65
 13
 14    <application
-14-->/Users/ikobilynch/Desktop/Alarm-20221201T230052Z-001/Alarm/app/src/main/AndroidManifest.xml:6:5-28:19
+14-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:6:5-28:19
 15        android:allowBackup="true"
-15-->/Users/ikobilynch/Desktop/Alarm-20221201T230052Z-001/Alarm/app/src/main/AndroidManifest.xml:7:9-35
+15-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:7:9-35
 16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 16-->[androidx.core:core:1.8.0] /Users/ikobilynch/.gradle/caches/transforms-3/6a19de105318aab1da00cfa3c60fb56e/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
 17        android:dataExtractionRules="@xml/data_extraction_rules"
-17-->/Users/ikobilynch/Desktop/Alarm-20221201T230052Z-001/Alarm/app/src/main/AndroidManifest.xml:8:9-65
+17-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:8:9-65
 18        android:debuggable="true"
 19        android:fullBackupContent="@xml/backup_rules"
-19-->/Users/ikobilynch/Desktop/Alarm-20221201T230052Z-001/Alarm/app/src/main/AndroidManifest.xml:9:9-54
+19-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:9:9-54
 20        android:icon="@mipmap/ic_launcher"
-20-->/Users/ikobilynch/Desktop/Alarm-20221201T230052Z-001/Alarm/app/src/main/AndroidManifest.xml:10:9-43
+20-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:10:9-43
 21        android:label="@string/app_name"
-21-->/Users/ikobilynch/Desktop/Alarm-20221201T230052Z-001/Alarm/app/src/main/AndroidManifest.xml:11:9-41
+21-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:11:9-41
 22        android:roundIcon="@mipmap/ic_launcher_round"
-22-->/Users/ikobilynch/Desktop/Alarm-20221201T230052Z-001/Alarm/app/src/main/AndroidManifest.xml:12:9-54
+22-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:12:9-54
 23        android:supportsRtl="true"
-23-->/Users/ikobilynch/Desktop/Alarm-20221201T230052Z-001/Alarm/app/src/main/AndroidManifest.xml:13:9-35
+23-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:13:9-35
 24        android:testOnly="true"
 25        android:theme="@style/Theme.Alarm" >
-25-->/Users/ikobilynch/Desktop/Alarm-20221201T230052Z-001/Alarm/app/src/main/AndroidManifest.xml:14:9-43
+25-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:14:9-43
 26        <activity
-26-->/Users/ikobilynch/Desktop/Alarm-20221201T230052Z-001/Alarm/app/src/main/AndroidManifest.xml:16:9-25:20
+26-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:16:9-25:20
 27            android:name="com.example.alarm.MainActivity"
-27-->/Users/ikobilynch/Desktop/Alarm-20221201T230052Z-001/Alarm/app/src/main/AndroidManifest.xml:17:13-41
+27-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:17:13-41
 28            android:exported="true" >
-28-->/Users/ikobilynch/Desktop/Alarm-20221201T230052Z-001/Alarm/app/src/main/AndroidManifest.xml:18:13-36
+28-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:18:13-36
 29            <intent-filter>
-29-->/Users/ikobilynch/Desktop/Alarm-20221201T230052Z-001/Alarm/app/src/main/AndroidManifest.xml:19:13-23:29
+29-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:19:13-23:29
 30                <action android:name="android.intent.action.MAIN" />
-30-->/Users/ikobilynch/Desktop/Alarm-20221201T230052Z-001/Alarm/app/src/main/AndroidManifest.xml:20:17-69
-30-->/Users/ikobilynch/Desktop/Alarm-20221201T230052Z-001/Alarm/app/src/main/AndroidManifest.xml:20:25-66
+30-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:20:17-69
+30-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:20:25-66
 31
 32                <category android:name="android.intent.category.LAUNCHER" />
-32-->/Users/ikobilynch/Desktop/Alarm-20221201T230052Z-001/Alarm/app/src/main/AndroidManifest.xml:22:17-77
-32-->/Users/ikobilynch/Desktop/Alarm-20221201T230052Z-001/Alarm/app/src/main/AndroidManifest.xml:22:27-74
+32-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:22:17-77
+32-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:22:27-74
 33            </intent-filter>
 34        </activity>
 35
 36        <receiver android:name="com.example.alarm.AlarmReceiver" />
-36-->/Users/ikobilynch/Desktop/Alarm-20221201T230052Z-001/Alarm/app/src/main/AndroidManifest.xml:26:9-27:15
-36-->/Users/ikobilynch/Desktop/Alarm-20221201T230052Z-001/Alarm/app/src/main/AndroidManifest.xml:26:19-48
+36-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:26:9-27:15
+36-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:26:19-48
 37
 38        <provider
 38-->[androidx.emoji2:emoji2:1.2.0] /Users/ikobilynch/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
