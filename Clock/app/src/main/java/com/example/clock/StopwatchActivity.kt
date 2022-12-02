@@ -24,7 +24,7 @@ class StopwatchActivity : AppCompatActivity() {
         // val view = binding.root
         // setContentView(view)
 
-        binding.btnStartStop.setOnClickListener { startStopTimer() }
+        binding.btnStart.setOnClickListener { startStopTimer() }
         binding.btnReset.setOnClickListener { resetTimer() }
 
         serviceIntent = Intent(applicationContext, TimerService::class.java)
@@ -41,15 +41,15 @@ class StopwatchActivity : AppCompatActivity() {
     private fun startTimer() {
         serviceIntent.putExtra(TimerService.TIME_EXTRA, time)
         startService(serviceIntent)
-        binding.btnStartStop.text = getString(R.string.stop)
-        binding.btnStartStop.icon = getDrawable(R.drawable.ic_baseline_pause_24)
+        binding.btnStart.text = getString(R.string.stop)
+        //binding.btnStart.icon = getDrawable(R.drawable.ic_baseline_pause_24)
         timerStarted = true
     }
 
     private fun stopTimer() {
         stopService(serviceIntent)
-        binding.btnStartStop.text = getString(R.string.start)
-        binding.btnStartStop.icon = getDrawable(R.drawable.ic_baseline_play_arrow_24)
+        binding.btnStart.text = getString(R.string.start)
+        //binding.btnStart.icon = getDrawable(R.drawable.ic_baseline_play_arrow_24)
         timerStarted = false
     }
 
