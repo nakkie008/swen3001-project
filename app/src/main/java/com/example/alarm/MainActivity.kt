@@ -11,15 +11,25 @@ import android.widget.Toast
 import android.widget.ToggleButton
 import java.util.*
 
+import android.widget.Button
+
+
 class MainActivity : AppCompatActivity() {
     var alarmTimePicker :TimePicker? = null
     var pendingIntent :PendingIntent? = null
     var alarmManager : AlarmManager? = null
+
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         alarmTimePicker = findViewById(R.id.timePicker)
         alarmManager = getSystemService(ALARM_SERVICE) as AlarmManager
+
+
+        configurePomodoroButton()
+
     }
 
     fun onToggleClicked(view: View) {
@@ -40,7 +50,7 @@ class MainActivity : AppCompatActivity() {
 
             if (System.currentTimeMillis() > time){
                 time = if (Calendar.AM_PM == 0) {
-                    time + 1000 *60*60*24
+                    time + 1000 *60*60*12
                 }
                 else {
                     time + 1000 *60*60*24
@@ -56,4 +66,17 @@ class MainActivity : AppCompatActivity() {
 
 
     }
+
+    fun configurePomodoroButton(){
+        var btn_pomo : Button? = null
+        btn_pomo = findViewById(R.id.btnPomodoro)
+
+        btn_pomo.setOnClickListener{
+            val intent = Intent(this@MainActivity, Pomodoro2::class.java)
+            startActivity(intent)
+        }
+
+    }
+
+
 }

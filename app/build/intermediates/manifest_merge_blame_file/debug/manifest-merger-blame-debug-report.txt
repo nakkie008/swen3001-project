@@ -11,77 +11,90 @@
 9-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.VIBRATE" />
-11-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:4:3-63
-11-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:4:20-61
+11-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:5:5-66
+11-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:5:22-63
 12    <uses-permission android:name="android.permission.WAKE_LOCK" />
-12-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:5:5-67
-12-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:5:22-65
+12-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:6:5-68
+12-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:6:22-65
 13
 14    <application
-14-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:6:5-28:19
+14-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:8:5-36:19
 15        android:allowBackup="true"
-15-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:7:9-35
+15-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:9:9-35
 16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-16-->[androidx.core:core:1.8.0] /Users/ikobilynch/.gradle/caches/transforms-3/6a19de105318aab1da00cfa3c60fb56e/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+16-->[androidx.core:core:1.8.0] /Users/ikobilynch/Downloads/gradle-7.4/caches/transforms-3/6a19de105318aab1da00cfa3c60fb56e/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
 17        android:dataExtractionRules="@xml/data_extraction_rules"
-17-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:8:9-65
+17-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:10:9-65
 18        android:debuggable="true"
 19        android:fullBackupContent="@xml/backup_rules"
-19-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:9:9-54
+19-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:11:9-54
 20        android:icon="@mipmap/ic_launcher"
-20-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:10:9-43
+20-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:12:9-43
 21        android:label="@string/app_name"
-21-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:11:9-41
+21-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:13:9-41
 22        android:roundIcon="@mipmap/ic_launcher_round"
-22-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:12:9-54
+22-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:14:9-54
 23        android:supportsRtl="true"
-23-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:13:9-35
+23-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:15:9-35
 24        android:testOnly="true"
 25        android:theme="@style/Theme.Alarm" >
-25-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:14:9-43
+25-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:16:9-43
 26        <activity
-26-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:16:9-25:20
-27            android:name="com.example.alarm.MainActivity"
-27-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:17:13-41
-28            android:exported="true" >
-28-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:18:13-36
-29            <intent-filter>
-29-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:19:13-23:29
-30                <action android:name="android.intent.action.MAIN" />
-30-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:20:17-69
-30-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:20:25-66
-31
-32                <category android:name="android.intent.category.LAUNCHER" />
-32-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:22:17-77
-32-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:22:27-74
-33            </intent-filter>
-34        </activity>
-35
-36        <receiver android:name="com.example.alarm.AlarmReceiver" />
-36-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:26:9-27:15
-36-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:26:19-48
-37
-38        <provider
-38-->[androidx.emoji2:emoji2:1.2.0] /Users/ikobilynch/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
-39            android:name="androidx.startup.InitializationProvider"
-39-->[androidx.emoji2:emoji2:1.2.0] /Users/ikobilynch/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
-40            android:authorities="com.example.alarm.androidx-startup"
-40-->[androidx.emoji2:emoji2:1.2.0] /Users/ikobilynch/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
-41            android:exported="false" >
-41-->[androidx.emoji2:emoji2:1.2.0] /Users/ikobilynch/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
-42            <meta-data
-42-->[androidx.emoji2:emoji2:1.2.0] /Users/ikobilynch/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
-43                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-43-->[androidx.emoji2:emoji2:1.2.0] /Users/ikobilynch/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
-44                android:value="androidx.startup" />
-44-->[androidx.emoji2:emoji2:1.2.0] /Users/ikobilynch/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
-45            <meta-data
-45-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/ikobilynch/.gradle/caches/transforms-3/a4f0fb44e9b56370f8c2ed23c9d5d030/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
-46                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-46-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/ikobilynch/.gradle/caches/transforms-3/a4f0fb44e9b56370f8c2ed23c9d5d030/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
-47                android:value="androidx.startup" />
-47-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/ikobilynch/.gradle/caches/transforms-3/a4f0fb44e9b56370f8c2ed23c9d5d030/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
-48        </provider>
-49    </application>
-50
-51</manifest>
+26-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:18:9-24:20
+27            android:name="com.example.alarm.Pomodoro2"
+27-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:19:13-38
+28            android:exported="false" >
+28-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:20:13-37
+29            <meta-data
+29-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:21:13-23:36
+30                android:name="android.app.lib_name"
+30-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:22:17-52
+31                android:value="" />
+31-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:23:17-33
+32        </activity>
+33        <activity
+33-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:25:9-33:20
+34            android:name="com.example.alarm.MainActivity"
+34-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:26:13-41
+35            android:exported="true" >
+35-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:27:13-36
+36            <intent-filter>
+36-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:28:13-32:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:29:17-69
+37-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:29:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:31:17-77
+39-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:31:27-74
+40            </intent-filter>
+41        </activity>
+42
+43        <receiver android:name="com.example.alarm.AlarmReceiver" />
+43-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:35:9-51
+43-->/Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:35:19-48
+44
+45        <provider
+45-->[androidx.emoji2:emoji2:1.2.0] /Users/ikobilynch/Downloads/gradle-7.4/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+46            android:name="androidx.startup.InitializationProvider"
+46-->[androidx.emoji2:emoji2:1.2.0] /Users/ikobilynch/Downloads/gradle-7.4/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+47            android:authorities="com.example.alarm.androidx-startup"
+47-->[androidx.emoji2:emoji2:1.2.0] /Users/ikobilynch/Downloads/gradle-7.4/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+48            android:exported="false" >
+48-->[androidx.emoji2:emoji2:1.2.0] /Users/ikobilynch/Downloads/gradle-7.4/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+49            <meta-data
+49-->[androidx.emoji2:emoji2:1.2.0] /Users/ikobilynch/Downloads/gradle-7.4/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+50                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+50-->[androidx.emoji2:emoji2:1.2.0] /Users/ikobilynch/Downloads/gradle-7.4/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+51                android:value="androidx.startup" />
+51-->[androidx.emoji2:emoji2:1.2.0] /Users/ikobilynch/Downloads/gradle-7.4/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+52            <meta-data
+52-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/ikobilynch/Downloads/gradle-7.4/caches/transforms-3/a4f0fb44e9b56370f8c2ed23c9d5d030/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+53                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+53-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/ikobilynch/Downloads/gradle-7.4/caches/transforms-3/a4f0fb44e9b56370f8c2ed23c9d5d030/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+54                android:value="androidx.startup" />
+54-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/ikobilynch/Downloads/gradle-7.4/caches/transforms-3/a4f0fb44e9b56370f8c2ed23c9d5d030/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+55        </provider>
+56    </application>
+57
+58</manifest>

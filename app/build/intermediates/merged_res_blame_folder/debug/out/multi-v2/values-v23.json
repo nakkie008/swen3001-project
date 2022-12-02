@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.alarm.app-mergeDebugResources-27:/values-v23/values-v23.xml",
+            "outputFile": "com.example.alarm.app-mergeDebugResources-3:/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/Users/ikobilynch/.gradle/caches/transforms-3/685980b024686d78956b91eec9b43f3b/transformed/appcompat-1.5.1/res/values-v23/values-v23.xml",
+                    "source": "/Users/ikobilynch/Downloads/gradle-7.4/caches/transforms-3/685980b024686d78956b91eec9b43f3b/transformed/appcompat-1.5.1/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -15,7 +15,7 @@
                     }
                 },
                 {
-                    "source": "/Users/ikobilynch/.gradle/caches/transforms-3/11918c9aa544653f8c45c32ea9ac02b8/transformed/material-1.7.0/res/values-v23/values-v23.xml",
+                    "source": "/Users/ikobilynch/Downloads/gradle-7.4/caches/transforms-3/11918c9aa544653f8c45c32ea9ac02b8/transformed/material-1.7.0/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,5,8,13,17,20,23,26,31,34,38",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
@@ -34,7 +34,7 @@
                     }
                 },
                 {
-                    "source": "/Users/ikobilynch/.gradle/caches/transforms-3/ecb62397fcd2d0e31dd8cc20a358496e/transformed/cardview-1.0.0/res/values-v23/values-v23.xml",
+                    "source": "/Users/ikobilynch/Downloads/gradle-7.4/caches/transforms-3/ecb62397fcd2d0e31dd8cc20a358496e/transformed/cardview-1.0.0/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

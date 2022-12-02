@@ -1,0 +1,35 @@
+R_DEF: Internal format may change without notice
+local
+color base
+color black
+color highlight
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable button_border
+drawable ic_baseline_pause_24
+drawable ic_baseline_play_arrow_24
+drawable ic_baseline_replay_24
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id btnReset
+id btnStart
+id txtHeading
+id txtTime
+layout stopwatch
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string clock
+string digital
+string reset
+string start
+string stop
+string stopwatch
+string time
+style Theme.Clock
+xml backup_rules
+xml data_extraction_rules

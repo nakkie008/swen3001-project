@@ -2737,6 +2737,9 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btnAlarm
+id btnPomodoro
+id btnStart
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2958,6 +2961,7 @@ id onInterceptTouchReturnSwipe
 id outline
 id outward
 id overshoot
+id pText
 id packed
 id parallax
 id parent
@@ -3066,6 +3070,7 @@ id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id textTitle
 id textTop
 id text_input_end_icon
 id text_input_error_icon
@@ -3240,6 +3245,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
+layout activity_pomodoro2
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -3344,6 +3350,7 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string alarm
 string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
@@ -3457,7 +3464,9 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string pomodoro
 string search_menu_title
+string start
 string status_bar_notification_info_overflow
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
