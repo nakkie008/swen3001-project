@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/base"
-    tools:context=".MainActivity">
+    tools:context=".StopwatchActivity">
 
     <TextView
         android:id="@+id/txtHeading"
@@ -23,13 +23,13 @@
     <TextView
         android:id="@+id/txtTime"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="150dp"
         android:layout_marginTop="150dp"
         android:padding="10dp"
         android:text="@string/time"
         android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="30sp" />
+        android:textSize="60sp" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -37,29 +37,30 @@
         android:layout_marginTop="150dp"
         android:padding="10dp">
 
-        <Button
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnStartStop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_border"
+            app:icon="@drawable/ic_baseline_play_arrow_24"
+            android:text="@string/start"
+            android:textColor="@color/highlight"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/btnReset"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btnReset"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/button_border"
             android:text="@string/reset"
-            android:textColor="@color/highlight"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@id/btnStart"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-
-        <Button
-            android:id="@+id/btnStart"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/button_border"
-            android:text="@string/start"
+            app:icon="@drawable/ic_baseline_replay_24"
             android:textColor="@color/highlight"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@id/btnReset"
+            app:layout_constraintStart_toEndOf="@id/btnStartStop"
             app:layout_constraintTop_toTopOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
