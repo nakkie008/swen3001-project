@@ -5,13 +5,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#3700B2"
     android:orientation= "vertical"
     tools:context=".MainActivity">
     <TimePicker
         android:id="@+id/timePicker"
         android:layout_gravity="center"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:amPmTextColor="#FC088E"
+        android:background="#3700B2"
+        android:headerBackground="@color/design_default_color_primary_variant"
+        android:numbersBackgroundColor="#3700B2"
+        android:numbersSelectorColor="#F9088B"
+        android:numbersTextColor="#070707"
+        />
     <ToggleButton
         android:id="@+id/toggleBtn"
         android:layout_margin="20dp"
@@ -19,24 +27,41 @@
         android:checked="false"
         android:onClick="onToggleClicked"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:background="#F9088B"
+        />
 
     <Space
         android:layout_width="match_parent"
-        android:layout_height="123dp" />
+        android:layout_height="96dp"
+        android:background="#F9088B"
+        android:backgroundTint="#F9088B" />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal">
+        android:layout_height="133dp"
+        android:layout_marginTop="20dp"
+        android:background="#F9088B"
+        android:orientation="vertical">
 
         <Button
             android:id="@+id/btnPomodoro"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_marginTop="10dp"
             android:layout_weight="1"
+            android:background="#F9088B"
             android:text="Pomodoro" />
 
+        <Button
+            android:id="@+id/btn_Clock"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:background="#F9088B"
+            android:text="Clock" />
     </LinearLayout>
 
 </LinearLayout>

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:2:1-38:12
-INJECTED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:2:1-38:12
-INJECTED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:2:1-38:12
-INJECTED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:2:1-38:12
+ADDED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:2:1-49:12
+INJECTED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:2:1-49:12
+INJECTED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:2:1-49:12
+INJECTED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:2:1-49:12
 MERGED from [com.google.android.material:material:1.7.0] /Users/ikobilynch/Downloads/gradle-7.4/caches/transforms-3/11918c9aa544653f8c45c32ea9ac02b8/transformed/material-1.7.0/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/ikobilynch/Downloads/gradle-7.4/caches/transforms-3/9827ec6617366e82ed5e7c7a909d86e6/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /Users/ikobilynch/Downloads/gradle-7.4/caches/transforms-3/04b99c2d3ee38714c14bf3d221b2a08b/transformed/appcompat-resources-1.5.1/AndroidManifest.xml:17:1-22:12
@@ -44,22 +44,22 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/ikobilynch/Downloa
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/ikobilynch/Downloads/gradle-7.4/caches/transforms-3/3ac119fa795bc1ef3ecdd8c6ea4af554/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/ikobilynch/Downloads/gradle-7.4/caches/transforms-3/5b9f05308f02d2aab4c4e2d31764b8b7/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/ikobilynch/Downloads/gradle-7.4/caches/transforms-3/760b9af4b43b4d512130ddd1633ee153/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:2:1-38:12
-INJECTED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:2:1-38:12
-INJECTED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:2:1-38:12
+INJECTED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:2:1-49:12
+INJECTED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:2:1-49:12
+INJECTED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:2:1-49:12
 	package
 		INJECTED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml
-		ADDED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:2:1-38:12
+		ADDED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:2:1-49:12
 		INJECTED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml
-		ADDED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:2:1-38:12
+		ADDED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:2:1-49:12
 		INJECTED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml
-		ADDED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:2:1-38:12
+		ADDED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:2:1-49:12
 		INJECTED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:2:11-69
@@ -72,7 +72,7 @@ ADDED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidM
 	android:name
 		ADDED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:6:22-65
 application
-ADDED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:8:5-36:19
+ADDED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:8:5-47:19
 MERGED from [com.google.android.material:material:1.7.0] /Users/ikobilynch/Downloads/gradle-7.4/caches/transforms-3/11918c9aa544653f8c45c32ea9ac02b8/transformed/material-1.7.0/AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.7.0] /Users/ikobilynch/Downloads/gradle-7.4/caches/transforms-3/11918c9aa544653f8c45c32ea9ac02b8/transformed/material-1.7.0/AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/ikobilynch/Downloads/gradle-7.4/caches/transforms-3/9827ec6617366e82ed5e7c7a909d86e6/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
@@ -107,38 +107,44 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/ikobilynch/Downloads
 		ADDED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:16:9-43
 	android:dataExtractionRules
 		ADDED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:10:9-65
-activity#com.example.alarm.Pomodoro2
-ADDED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:18:9-24:20
+activity#com.example.alarm.Clock
+ADDED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:18:9-26:20
 	android:exported
 		ADDED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:20:13-37
 	android:name
-		ADDED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:19:13-38
+		ADDED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:19:13-34
 meta-data#android.app.lib_name
-ADDED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:21:13-23:36
+ADDED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:22:13-24:36
 	android:value
-		ADDED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:23:17-33
+		ADDED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:24:17-33
 	android:name
-		ADDED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:22:17-52
-activity#com.example.alarm.MainActivity
-ADDED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:25:9-33:20
+		ADDED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:23:17-52
+activity#com.example.alarm.Pomodoro2
+ADDED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:27:9-33:20
 	android:exported
-		ADDED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:27:13-36
+		ADDED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:29:13-37
 	android:name
-		ADDED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:26:13-41
+		ADDED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:28:13-38
+activity#com.example.alarm.MainActivity
+ADDED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:34:9-42:20
+	android:exported
+		ADDED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:36:13-36
+	android:name
+		ADDED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:35:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:28:13-32:29
+ADDED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:37:13-41:29
 action#android.intent.action.MAIN
-ADDED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:29:17-69
+ADDED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:38:17-69
 	android:name
-		ADDED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:29:25-66
+		ADDED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:38:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:31:17-77
+ADDED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:40:17-76
 	android:name
-		ADDED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:31:27-74
+		ADDED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:40:27-74
 receiver#com.example.alarm.AlarmReceiver
-ADDED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:35:9-51
+ADDED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:46:9-51
 	android:name
-		ADDED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:35:19-48
+		ADDED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml:46:19-48
 uses-sdk
 INJECTED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/ikobilynch/Dev/swen3001/swen3001-project/app/src/main/AndroidManifest.xml

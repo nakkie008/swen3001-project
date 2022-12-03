@@ -5,15 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_weight="1"
+    android:background="#F9078B"
     android:orientation="vertical">
+
 
     <TextView
         android:id="@+id/textTitle"
         android:layout_width="match_parent"
         android:layout_height="81dp"
         android:layout_weight="0"
+        android:background="#3815B1"
         android:gravity="center"
         android:text="@string/pomodoro"
+        android:textColor="#FA088C"
         android:textSize="48sp"
         android:textStyle="bold" />
 
@@ -23,8 +27,10 @@
         android:layout_width="match_parent"
         android:layout_height="105dp"
         android:layout_weight="0"
+        android:background="#3700B2"
         android:gravity="center"
         android:text=""
+        android:textColor="@color/white"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textSize="40sp" />
 
@@ -35,29 +41,58 @@
         android:layout_gravity="center"
         android:layout_marginTop="80dp"
         android:layout_weight="0"
+        android:background="#F7088A"
         android:onClick="onClick"
         android:text="@string/start" />
 
     <Space
         android:layout_width="match_parent"
         android:layout_height="144dp"
-        android:layout_weight="0" />
+        android:layout_weight="0"
+        android:background="#F9078B"
+        android:backgroundTint="#3700B2" />
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <TextView
+        android:id="@+id/printText"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="0">
+        android:layout_height="50dp"
+        android:layout_weight="0"
+        android:background="#F8068A"
+        android:gravity="center"
+        android:text="Output here"
+        android:textColor="#F8068A"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        android:layout_weight="0"
+        android:orientation="vertical"
+        android:background="#3815B1">
+
 
         <Button
             android:id="@+id/btnAlarm"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
             android:layout_marginBottom="16dp"
+            android:background="#FA088C"
             android:text="@string/alarm"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Button
+            android:id="@+id/btnClock_Pomodoro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginBottom="16dp"
+            android:background="#FA088C"
+            android:text="Clock"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </LinearLayout>
 
 </LinearLayout>

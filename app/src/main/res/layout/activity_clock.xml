@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8098A"
+    android:orientation="vertical"
+    tools:context=".Clock">
+
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="81dp"
+        android:layout_gravity="center"
+        android:layout_weight="0"
+        android:background="#F70A89"
+        android:gravity="center"
+        android:text="Clock"
+        android:textColor="@color/white"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:amPmTextColor="#FC088E"
+        android:background="#3700B2"
+        android:headerBackground="@color/design_default_color_primary_variant"
+        android:numbersBackgroundColor="#3700B2"
+        android:numbersSelectorColor="#F9088B"
+        android:numbersTextColor="#070707"
+
+        />
+
+    <Button
+        android:id="@+id/btnAlarm_Clock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0"
+        android:text="@string/alarm" />
+
+    <Button
+        android:id="@+id/btnPomodoro_Clock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0"
+        android:text="@string/pomodoro" />
+
+</LinearLayout>

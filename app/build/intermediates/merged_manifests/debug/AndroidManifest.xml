@@ -24,6 +24,13 @@
         android:testOnly="true"
         android:theme="@style/Theme.Alarm" >
         <activity
+            android:name="com.example.alarm.Clock"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name="com.example.alarm.Pomodoro2"
             android:exported="false" >
             <meta-data

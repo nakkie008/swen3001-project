@@ -32,8 +32,12 @@
         "source": "/Users/ikobilynch/Downloads/gradle-7.4/daemon/7.4/com.example.alarm.app-main-7:/layout/activity_pomodoro2.xml"
     },
     {
-        "merged": "com.example.alarm.app-merged_res-5:/layout_activity_pomodoro2.xml.flat",
-        "source": "com.example.alarm.app-main-7:/layout/activity_pomodoro2.xml"
+        "merged": "com.example.alarm.app-merged_res-5:/layout_activity_clock.xml.flat",
+        "source": "com.example.alarm.app-main-7:/layout/activity_clock.xml"
+    },
+    {
+        "merged": "/Users/ikobilynch/Downloads/gradle-7.4/daemon/7.4/com.example.alarm.app-merged_res-5:/layout_activity_clock.xml.flat",
+        "source": "/Users/ikobilynch/Downloads/gradle-7.4/daemon/7.4/com.example.alarm.app-main-7:/layout/activity_clock.xml"
     },
     {
         "merged": "/Users/ikobilynch/Downloads/gradle-7.4/daemon/7.4/com.example.alarm.app-merged_res-5:/drawable_ic_launcher_background.xml.flat",

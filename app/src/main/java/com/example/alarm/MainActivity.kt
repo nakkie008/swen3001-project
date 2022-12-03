@@ -76,6 +76,14 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        var btnClock : Button? = null
+        btnClock = findViewById(R.id.btn_Clock)
+
+        btnClock.setOnClickListener{
+            val intent = Intent(this@MainActivity, Clock::class.java)
+            startActivity(intent)
+        }
+
     }
 
 
